@@ -14,7 +14,7 @@ export default function content(props) {
           style={{marginBottom: 5, marginTop: 5, width: 250}} 
           onPress={()=>props.navigation.navigate("Homepage")} >Log In</Button>
         <Button 
-          mode="text" 
+          mode="contained" 
           icon="account-plus" 
           style={{ width: 250}}  
           onPress={()=>props.navigation.navigate("Signin")}>Register here</Button>
